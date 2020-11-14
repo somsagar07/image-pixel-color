@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pixel-Color</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <div class="first">
+    <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)">
+    <canvas id="canvas" height="500px" width="700px"></canvas>
+    <div id="status"></div>
+  </div>
+  <div class="second">
+    <p>Pixel-Info : </p><div id="color" style="width:60px;height:50px;"></div>
+    <br>
+    <p id="show"></p>
+    <p id="show2"></p>
+  </div>
+    <script src="js/funtion.js">
+    </script>
+  </body>
+</html>
